@@ -27,7 +27,7 @@ public class DotGameManager {
 
      public String checkYourself(String guess){//to count no of guesses.
 
-        int intGuess = Integer.parseInt(guess)-1;
+        int intGuess = Integer.parseInt(guess) - 1;
         if(gameBoard[intGuess]!=0){
             correctGuesses++;
             result=Hit;
